@@ -1,0 +1,27 @@
+{
+  "name": "blind_server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsdom": "^9.8.3",
+    "request": "^2.78.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Bruno Murozaki, Rodrigo Guerra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubui/rp2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bubui/rp2/issues"
+  },
+  "homepage": "https://github.com/bubui/rp2#readme",
+  "description": ""
+}
