@@ -9,3 +9,6 @@ Para iniciar o projeto:
 
 Por enquanto esta configurado estaticamente para a porta 3000
 
+PS: Sempre que for adicionar algum pakg do node no projeto, fazer com a clausula --save para salvar dentro do arquivo package.json
+Ex.: npm install novo_package --save
+
