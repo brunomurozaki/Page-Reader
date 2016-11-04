@@ -11,7 +11,7 @@ function sendMessage(method, event, content){
 }
 
 function sendMessageContent(content){
-	sendMessage("POST", "/event", {url:"http://www1.folha.uol.com.br/poder/2016/11/1829156-marcelo-odebrecht-tera-que-cumprir-cinco-anos-de-prisao-domiciliar.shtml"});
+	sendMessage("POST", "/event", {url:content});
 }
 
 function successfulRequest(data){
