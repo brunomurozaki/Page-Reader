@@ -18,7 +18,7 @@ var currentURL = "";
 // Objeto para diferenciar os padroes HTML de acordo com o dominio do artigo
 var htmlPatterns = {
 	"folha.uol.com.br": "article>.content>p",
-	"uol.com.br": "article>header>h1:not(div), article>#texto>p, article>#texto>h3",
+	"uol.com.br": "article>header>h1, article>#texto>p, article>#texto>h3",
 	"estadao.com.br":"h2.titulo-principal, div.content>p",
 	".":"article"
 };
