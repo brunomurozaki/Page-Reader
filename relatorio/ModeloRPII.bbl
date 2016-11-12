@@ -1,0 +1,44 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Amenta et al. 2002]{teste1}
+\abntrefinfo{Amenta et al.}{AMENTA et al.}{2002a}
+{AMENTA, N. et al. A simple algorithm for homeomorphic surface reconstruction.
+\emph{International Journal of Computational Geometry and Applications}, World
+  Scientific Publishing Co., v.~12, n.~1-2, p. 125--141, 2002.}
+
+\bibitem[Amenta et al. 2002]{teste2}
+\abntrefinfo{Amenta et al.}{AMENTA et al.}{2002b}
+{AMENTA, N. et al. A simple algorithm for homeomorphic surface reconstruction.
+\emph{International Journal of Computational Geometry and Applications}, World
+  Scientific Publishing Co., v.~12, n.~1-2, p. 125--141, 2002.}
+
+\bibitem[Amenta et al. 2002]{teste3}
+\abntrefinfo{Amenta et al.}{AMENTA et al.}{2002c}
+{AMENTA, N. et al. A simple algorithm for homeomorphic surface reconstruction.
+\emph{International Journal of Computational Geometry and Applications}, World
+  Scientific Publishing Co., v.~12, n.~1-2, p. 125--141, 2002.}
+
+\bibitem[Consortium 2005]{w3c_wai_disabilites}
+\abntrefinfo{Consortium}{CONSORTIUM}{2005}
+{CONSORTIUM, W. W.~W. \emph{Web Accessibility Initiative}. 2005.
+Dispon{\'\i}vel em:
+  \url{https://www.w3.org/WAI/intro/people-use-web/Overview.html}.}
+
+\bibitem[Jensen1 e Øvad1 2016]{deaf_people}
+\abntrefinfo{Jensen1 e Øvad1}{JENSEN1; ØVAD1}{2016}
+{JENSEN1, S.~S.; ØVAD1, T. Optimizing web-accessibility for deaf people and
+  the hearing impaired utilizing a sign language dictionary embedded in a
+  browser.
+\emph{Cogn Tech Work}, v.~18, p. 717--731, 2016.}
+
+\bibitem[W3C 2005]{w3c_wai}
+\abntrefinfo{W3C}{W3C}{2005}
+{W3C, W. W. W.~C. \emph{Web Accessibility Initiative}. 2005.
+Dispon{\'\i}vel em: \url{https://www.w3.org/WAI/intro/accessibility.php}.}
+
+\end{thebibliography}

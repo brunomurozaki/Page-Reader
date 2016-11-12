@@ -120,8 +120,9 @@
 % Nome completo.
 % Sem ponto final.
 %-------------------------------------------------------------------------
-\autor{\uppercase{Bruno Impossinato Murozaki \\ autor}}
-\autor{\uppercase{Rodrigo Guerra \\ autor}}
+\autor{\uppercase{Bruno Impossinato Murozaki} 
+		\and 
+		\uppercase{Rodrigo Guerra}}
 
 %-------------------------------------------------------------------------
 % Informações sobre o ``local'':
@@ -372,586 +373,103 @@ Keywords: Keyword1. Keyword2. Keyword3. Etc.
 \chapter{Introdução}
 \label{sec:intro}
 
-Este \textit{template} apresenta as regras básicas para a elaboração do trabalho segundo as normas ABNT.
+% Inicio do trabalho
 
-Lembrar de fazer as devidas \citeonline{teste1} referências, tal como \cite{teste1, teste2, teste3}.
+O estudo de acessibilidade de ferramentas WEB é muito amplo. Existem diversos estudos e padrões definidos dentro da literatura que definem o que é ou não acessível. A entidade reguladora de padrões WEB, a \textit{World Wide WEB Consortium} (W3C) especifica em seu guia diversos itens que facilitam o acesso do usuário, através a Iniciativa de Acessibilidade WEB \citeonline{w3c_wai}. 
 
-Além das regras básicas previstas aqui, solicita-se consultar outros detalhes da norma ABNT sempre que se desejar inserir ou configurar algum elemento não previsto aqui. Ou seja, mesmo que este \textit{template} não preveja as demais regras ABNT, por ser uma visão simplificada, ainda assim elas precisam ser seguidas. O anexo \ref{anexoA} deste documento apresenta um resumo das normas ABNT, mas ainda assim também não completo.
+Mas há ainda na literatura uma falta de análise mais profunda quanto a questão de acessibilidade para com os usuários com algum tipo de deficiência ou inabilidade específica. A própria W3C, através da mesma Iniciativa de Acessibilidade WEB traz alguns pontos sobre como pessoas com inabilidades utilizam a WEB \citeonline{w3c_wai_disabilites}.
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.  
+Com o passar dos anos, algumas ferramentas isoladas permitem com que haja a inclusão por parte dos usuários com algumas inabilidades específicas. As ferramentas de leituras de texto (\textit{Text To Speech}) por exemplo, dão ao usuário a chance de reproduzir o texto de uma forma que usuários com deficiência visual parcial ou total utilizem-se da WEB. Mas ainda há a necessidade de plataformas que possam resolver por inteiro o problema de acessibilidade do usuário, já que em muitos casos, não há apenas uma ferramenta que pode auxiliar a utilização do sistema. 
 
-A tabela \ref{tab:ExemploDeTabela1} é um exemplo de como apresentar tabelas de acordo com essa norma. Veja mais detalhes no anexo \ref{anexoA} deste documento.
+% Falar sobre o estudo realizado com usuários surdos na Dinamarca
 
-%-------------------------------------------------------------------------
-% Informações sobre ``tabela''
-% 
-% Caption(Título) de tabelas e ilustração (tais como figura, gráfico, 
-% algoritmo, fotografia, quadro, etc.) sempre acima da própria.
-%
-% Para todos os captions/(títulos) (de seções, subseções, tabelas, 
-% ilustrações, etc):
-%     - em maiúscula apenas a primeira letra da sentença (do título), 
-%       exceto nomes próprios, geográficos, institucionais ou Programas ou
-%       Projetos ou siglas, os quais podem ter letras em maiúscula também.
-%
-% Todas  as tabelas, ilustrações (figuras, quadros, gráficos, etc. ), 
-% anexos, apêndices devem obrigatoriamente ser citados no texto.
-%      - a citação deve vir sempre antes da primeira vez em que a tabela, 
-%        ilustração, etc., aparecer pela primeira vez.
-%
-% Não confundir ``tabela'' com ``quadro''. Uma tabela deve ter dados 
-% numéricos como informação central. Outros tipos de organização de 
-% informações devem ser apresentados em quadros, que é um dos tipos de 
-% ilustração. A formatação de um quadro é muito parecida a de uma tabela, 
-% porém todos os traços horizontais e verticais devem ser apresentados.
-%
-%-------------------------------------------------------------------------
-\begin{table}[htbp]
-	\centering
-	\caption{Exemplo de título de tabela}
-		\begin{tabular}{p{1in} p{1in} p{1in} p{1in} } \hline
+Segundo \citeonline{deaf_people}, mais de um fator pode influenciar na acessibilidade por usuários com deficiência auditiva. Pela pesquisa feita em 2015, \citeonline{deaf_people} cita que há entre os usuários com inabilidade auditiva, problemas de compreensão de textos extensos, além da produtividade interpretativa também ser afetada pela complexidade vocabular utilizada. 
 
-		Cabeçalho 1	& Cabeçalho 2	& Cabeçalho 3	& Cabeçalho 4 \\ \hline
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ \hline
-		
-		\end{tabular}
-	\label{tab:ExemploDeTabela1}
-  \source{Marcelo Fantinato, 2015}
-\end{table}
+Nesta pesquisa, foram levantadas diversas hipóteses como o papel da imagem como facilitador de compreensão de texto, tempo gasto pelos usuários na completude de uma tarefa é maior em \textit{websites} com poucas imagens e usuários com deficiência auditiva releem mais texto do que os demais usuários. Os resultados demonstram em linhas gerais que as imagens por so só não alteram o desempenho do usuário com inabilidades auditivas, mas que necessidades específicas sim podem a vir alterar o desempenho.
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+% Falar sobre os itens abordados no bang do Social4All
 
-A seguir é apresentado um exemplo de lista de marcadores de apenas um nível (se você finalizar cada item da lista com ponto e vírgula, elas devem ser iniciadas com letra minúsculas; se você finalizar cada item da lista com ponto, elas devem ser iniciadas com letra maiúsculas):
-\begin{itemize}
-	\item sentença A;
-	\item sentença B mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto;
-	\item sentença C;
-	\item sentença D mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto.
-\end{itemize}
+Ainda buscando uma universalidade de acesso, o Social4All \cite{bibid}
 
-A seguir é apresentado um exemplo de lista de numeração de apenas um nível (se você finalizar cada item da lista com ponto e vírgula, elas devem ser iniciadas com letra minúsculas; se você finalizar cada item da lista com ponto, elas devem ser iniciadas com letra maiúsculas):
-\begin{enumerate}
-	\item Sentença A.
-	\item Sentença B mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto.
-	\item Sentença C.
-	\item Sentença D mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto mais texto.
-	\item Sentença E.
-	\item Sentença F.
-\end{enumerate}
+\chapter{Objetivos e Hipótese}
 
-A seguir é apresentado um exemplo de lista de marcadores vários níveis (se você finalizar cada item da lista com ponto e vírgula, elas devem ser iniciadas com letra minúsculas; se você finalizar cada item da lista com ponto, elas devem ser iniciadas com letra maiúsculas):
-\begin{itemize}
-	\item sentença A:
-  \begin{itemize}
-	   \item sentença A.1;
-	   \item sentença A.2:
-     \begin{itemize}
-	      \item sentença A.2.1;
-	      \item sentença A.2.2;
-	      \item sentença A.2.3.
-     \end{itemize}
-	   \item sentença A.3.
-  \end{itemize}
-	\item sentença B:
-  \begin{itemize}
-	   \item sentença B.1:
-     \begin{itemize}
-	      \item sentença B.1.1;
-	      \item sentença B.1.2;
-	      \item sentença B.1.3.
-     \end{itemize}
-	   \item sentença B.2;
-	   \item sentença B.3.
-  \end{itemize}
-\end{itemize}
-
-A seguir é apresentado um exemplo de lista de numeração de vários níveis (se você finalizar cada item da lista com ponto e vírgula, elas devem ser iniciadas com letra minúsculas; se você finalizar cada item da lista com ponto, elas devem ser iniciadas com letra maiúsculas):
-
-\begin{enumerate}
-	\item Sentença A:
-  \begin{enumerate}
-	  \item Sentença A.1.
-	  \item Sentença A.2:
-    \begin{enumerate}
-	    \item Sentença A.2.1.
-	    \item Sentença A.2.2.
-	    \item Sentença A.2.3.
-    \end{enumerate}
-	  \item Sentença A.3.
-	\end{enumerate}
-  \item Sentença B:
-  \begin{enumerate}
-	  \item Sentença B.1:
-      \begin{enumerate}
-  	    \item Sentença B.1.1.
-  	    \item Sentença B.1.2.
-  	    \item Sentença B.1.3.
-      \end{enumerate}
-	  \item Sentença B.2.
-	  \item Sentença B.3.
-  \end{enumerate}
-\end{enumerate}
-
-A figura \ref{fig:figura-exemplo1} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-%-------------------------------------------------------------------------
-% Informações sobre ``figura''
-% 
-% Caption(Título) de tabelas e ilustração (tais como figura, gráfico, 
-% algoritmo, fotografia, quadro, etc.) sempre acima da própria.
-%
-% Para todos os captions/(títulos) (de seções, subseções, tabelas, 
-% ilustrações, etc):
-%     - em maiúscula apenas a primeira letra da sentença (do título), 
-%       exceto nomes próprios, geográficos, institucionais ou Programas ou
-%       Projetos ou siglas, os quais podem ter letras em maiúscula também.
-%
-% Fonte de ilustração (tais como figura, gráfico, algoritmo, fotografia, 
-% quadro, etc.) sempre abaixo da própria.
-%      - se a fonte for o próprio autor, colocar o nome dele. 
-%      - se a fonte for outro autor, citar sua referência.
-%
-% Todas  as tabelas, ilustrações (figuras, quadros, gráficos, etc. ), 
-% anexos, apêndices devem obrigatoriamente ser citados no texto.
-%      - a citação deve vir sempre antes da primeira vez em que a tabela, 
-%        ilustração, etc., aparecer pela primeira vez.
-%
-%-------------------------------------------------------------------------
-\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
-	\centering
- 	  \caption{Exemplo de título de ilustração do tipo figura}
-		\includegraphics{figura-exemplo.png}
-	\label{fig:figura-exemplo1}
-  \source{Marcelo Fantinato, 2015}
-\end{figure}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\section{Uma seção secundária}
- 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A figura \ref{fig:figura-exemplo2} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{figure}[htbp]
-	\centering
-  \caption{Exemplo de título de ilustração do tipo figura, que pode ser maior para apresentar mais explicações sobre o conteúdo da figura, se for o caso}
-		\includegraphics{figura-exemplo.png}
-	\label{fig:figura-exemplo2}
-  \source{Marcelo Fantinato, 2015}
-\end{figure}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\subsection{Uma seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A tabela \ref{tab:ExemploDeTabela2} é outro exemplo de como apresentar tabelas de acordo com essa norma. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{table}[htbp]
-	\centering
-	\caption{Exemplo de título de tabela, que pode ser maior para apresentar mais explicações sobre o conteúdo da tabela, se for o caso}
-		\begin{tabular}{p{1.2in} p{1.2in} p{1.2in} p{1.2in} } \hline
-		
-		Cabeçalho 1	& Cabeçalho 2	& Cabeçalho 3	& Cabeçalho 4 \\ \hline
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ \hline
-			
-		\end{tabular}
-	\label{tab:ExemploDeTabela2}
-  \source{Marcelo Fantinato, 2015}
-\end{table}
-
-\subsection{Outra seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A figura \ref{fig:figura-exemplo3} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{figure}[htbp]
-	\centering
-	\caption{Exemplo de título de ilustração do tipo figura}
-		\includegraphics{figura-exemplo.png}
-	\label{fig:figura-exemplo3}
-  \source{Marcelo Fantinato, 2015}
-\end{figure}
-
-\subsection{Mais uma seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A tabela \ref{tab:ExemploDeTabela3} é um exemplo de como apresentar tabelas de acordo com essa norma. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{table}[htbp]
-	\centering
-	\caption{Exemplo de título de tabela}
-		\begin{tabular}{p{0.85in} p{0.85in} p{0.85in} p{0.85in} } \hline
-		
-		Cabeçalho 1	& Cabeçalho 2	& Cabeçalho 3	& Cabeçalho 4 \\ \hline
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ \hline
-			
-		\end{tabular}
-	\label{tab:ExemploDeTabela3}
-  \source{Marcelo Fantinato, 2015}
-\end{table}
+Como há ainda na literatura poucos estudos sobre acessibilidade no meio digital para usuários com inabilidades, o objetivo central do projeto referencia-se ao estudo de formas acessíveis ao usuário deste tipo, com foco nas inabilidades visuais e auditivas. Criar e utilizar-se de ferramentas existentes e que já atuam em questões de acessibilidade no âmbito geral para facilitar o uso destes usuários no meio WEB. 
+Ainda dentro do objetivo, temos a proposta de hipótese de que não existe alguma maneira universal de acessibilidade para um website. 
 
 
-A figura \ref{fig:figura-exemplo4} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
+\chapter{Ferramentas de Acessibilidade para Usuários com Deficiência Visual e Auditiva}
 
-\begin{figure}[htbp]
-	\centering
-	\caption{Exemplo de título bem grande de ilustração do tipo figura, bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande}
-		\includegraphics{figura-exemplo.png}
-	\label{fig:figura-exemplo4}
-  \source{Marcelo Fantinato, 2015}
-\end{figure}
+O termo acessibilidade não se refere apenas ao meio digital. Diversas ferramentas auxiliam as pessoas em suas tarefas diárias, facilitanto suas tarefas apesar de suas inabilidades. O uso destas ferramentas pode ser transplantado para o meio digital. É claro e evidente que nem todas as ferramentas podem ser utilizadas. Porém, em alguns casos, a computação pode e deve agir com estas ferramentas auxiliares, já que não há um meio comum a tecnologia que possa agir no sentido de acessibilidade por parte do usuário. 
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\section{Outra seção secundária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A tabela \ref{tab:ExemploDeTabela4} é outro exemplo de como apresentar tabelas de acordo com essa norma. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{table}[htbp]
-	\centering
-	\caption{Exemplo de título bem grande de tabela, bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande}
-		\begin{tabular}{p{1.4in} p{1.4in} p{1.4in} p{1.4in} } \hline
-		
-		Cabeçalho 1	& Cabeçalho 2	& Cabeçalho 3	& Cabeçalho 4 \\ \hline
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ 
-		Texto	& número & número	& número \\ \hline
-			
-		\end{tabular}
-	\label{tab:ExemploDeTabela4}
-  \source{Marcelo Fantinato, 2015}
-\end{table}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-A tabela \ref{tab:ExemploDeTabela5} é outro exemplo de como apresentar tabelas de acordo com essa norma. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{table}[htbp]
-	\centering
-	\caption{Exemplo de título de tabela}
-		\begin{tabular}{p{1.0in} p{1.0in} p{1.0in} } \hline
-		
-		Cabeçalho 1	& Cabeçalho 2	& Cabeçalho 3	 \\ \hline
-		número & número	& número \\ 
-		número & número	& número \\ 
-		número & número	& número \\ 
-		número & número	& número \\ 
-		número & número	& número \\ \hline
-			
-		\end{tabular}
-	\label{tab:ExemploDeTabela5}
-  \source{Marcelo Fantinato, 2015}
-\end{table}
+\section{Linguagens de Sinais}
 
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
-\section{Mais uma seção secundária}
+\section{Simplifcação de Texto utilizando Processamento de Linguagem Natural}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+\chapter{Padronização WEB}
 
-A figura \ref{fig:figura-exemplo5} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
+\section{Coesão textual e visual}
 
-\begin{figure}[htbp]
-	\centering
-	\caption{Exemplo de título de ilustração do tipo figura}
-		\includegraphics{figura-exemplo.png}
-	\label{fig:figura-exemplo5}
-  \source{Marcelo Fantinato, 2015}
-\end{figure}
+\section{Padrões HTML5}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+\chapter{Acessibilidade para Usuários com Deficiência Visual}
 
-\chapter{Outra seção primária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Lembrar de fazer as devidas \citeonline{teste1} referências, tal como \cite{teste1, teste2, teste3}.
-
-O algoritmo \ref{alg:algoritmo-exemplo1} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-%-------------------------------------------------------------------------
-% Informações sobre ``algoritmo''
-% 
-% Caption(Título) de tabelas e ilustração (tais como figura, gráfico, 
-% algoritmo, fotografia, quadro, etc.) sempre acima da própria.
-%
-% Para todos os captions/(títulos) (de seções, subseções, tabelas, 
-% ilustrações, etc):
-%     - em maiúscula apenas a primeira letra da sentença (do título), 
-%       exceto nomes próprios, geográficos, institucionais ou Programas ou
-%       Projetos ou siglas, os quais podem ter letras em maiúscula também.
-%
-% Fonte de ilustração (tais como figura, gráfico, algoritmo, fotografia, 
-% quadro, etc.) sempre abaixo da própria.
-%      - se a fonte for o próprio autor, colocar o nome dele. 
-%      - se a fonte for outro autor, citar sua referência.
-%
-% Todas  as tabelas, ilustrações (figuras, quadros, gráficos, etc. ), 
-% anexos, apêndices devem obrigatoriamente ser citados no texto.
-%      - a citação deve vir sempre antes da primeira vez em que a tabela, 
-%        ilustração, etc., aparecer pela primeira vez.
-%
-%-------------------------------------------------------------------------
-\begin{algorithm}[htbp]
-\caption{Exemplo de título de ilustração do tipo algoritmo, que pode ser maior para apresentar mais explicações sobre o conteúdo do algoritmo, se for o caso}
-\label{alg:algoritmo-exemplo1}
-\begin{algorithmic}[1]
-\Procedure{MyProcedure}{}
-\State $passo-1$
-\State $passo-2$
-\State $passo-3$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $passo-n$
-\EndProcedure
-\end{algorithmic}
-\source{Marcelo Fantinato, 2015}
-\end{algorithm}
-
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+\section{Uso do \textit{Text to Speech}}
 
 \section{Uma seção secundária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-As fórmulas \ref{eq:equacao-exemplo1} e \ref{eq:equacao-exemplo2} são exemplos de como apresentar fórmulas e equações destacadas do parágrafo normal do texto. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{equation}
-  X + Y = Z
-	\label{eq:equacao-exemplo1}
-\end{equation}
-
-\begin{equation}
-  (X - Y)/5 = n
-	\label{eq:equacao-exemplo2}
-\end{equation}
-
-
-O algoritmo \ref{alg:algoritmo-exemplo2} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{algorithm}[htbp]
-\caption{Exemplo de título de ilustração do tipo algoritmo}
-\label{alg:algoritmo-exemplo2}
-\begin{algorithmic}[1]
-\Procedure{MyProcedure}{}
-\State $passo-1$
-\State $passo-2$
-\State $passo-3$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $passo-n$
-\EndProcedure
-\end{algorithmic}
-\source{Marcelo Fantinato, 2015}
-\end{algorithm}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsection{Uma seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-O algoritmo \ref{alg:algoritmo-exemplo3} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{algorithm}[htbp]
-\caption{Exemplo de título de ilustração do tipo algoritmo}
-\label{alg:algoritmo-exemplo3}
-\begin{algorithmic}[1]
-\Procedure{MyProcedure}{}
-\State $passo-1$
-\State $passo-2$
-\State $passo-3$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $passo-n$
-\EndProcedure
-\end{algorithmic}
-\source{Marcelo Fantinato, 2015}
-\end{algorithm}
-
-
-\subsection{Outra seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\subsection{Mais uma seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-O algoritmo \ref{alg:algoritmo-exemplo4} é um exemplo de como apresentar ilustrações de acordo com essa norma. Qualquer outra ilustração deve ser apresentada de forma similar, mudando apenas o prefixo do título e a numeração. Veja mais detalhes no anexo \ref{anexoA} deste documento.
-
-\begin{algorithm}[htbp]
-\caption{Exemplo de título bem grande de ilustração do tipo algoritmo, bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande bem grande}
-\label{alg:algoritmo-exemplo4}
-\begin{algorithmic}[1]
-\Procedure{MyProcedure}{}
-\State $passo-1$
-\State $passo-2$
-\State $passo-3$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $.$
-\State $passo-n$
-\EndProcedure
-\end{algorithmic}
-\source{Marcelo Fantinato, 2015}
-\end{algorithm}
-
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\section{Outra seção secundária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\section{Mais uma seção secundária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\chapter{Mais uma seção primária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\section{Uma seção secundária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-\subsection{Uma seção terciária}
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsubsection{Uma seção quartenária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsubsubsection{Uma seção quinária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsubsubsection{Outra seção quinária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
 \subsubsubsection{Mais uma seção quinária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsubsection{Outra seção quartenária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsubsection{Mais uma seção quartenária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsection{Outra seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsection{Mais uma seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \section{Outra seção secundária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \section{Mais uma seção secundária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \chapter{Mais uma outra seção primária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \section{Uma seção secundária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \subsection{Uma seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 
 \subsection{Outra seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
 \subsection{Mais uma seção terciária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \section{Outra seção secundária}
 
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
 \section{Mais uma seção secundária}
 
