@@ -8,82 +8,74 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{11}{chapter.1}
-\contentsline {section}{\numberline {1.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{15}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{16}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{16}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{17}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{18}{section.1.2}
-\contentsline {section}{\numberline {1.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{19}{section.1.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}Objetivos e Hip\IeC {\'o}tese}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{21}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{22}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{23}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{23}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{24}{section.2.2}
-\contentsline {section}{\numberline {2.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{25}{section.2.3}
+\contentsline {chapter}{\chapternumberline {2}Objetivos e Hip\IeC {\'o}tese}{13}{chapter.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Padroniza\IeC {\c c}\IeC {\~a}o WEB}{26}{chapter.3}
-\contentsline {section}{\numberline {3.1}Coes\IeC {\~a}o textual e visual}{26}{section.3.1}
-\contentsline {section}{\numberline {3.2}Padr\IeC {\~o}es HTML5}{26}{section.3.2}
+\contentsline {chapter}{\chapternumberline {3}Ferramentas de Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual e Auditiva}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Linguagens de Sinais}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simplifca\IeC {\c c}\IeC {\~a}o de Texto utilizando Processamento de Linguagem Natural}{14}{section.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Uso do \textit {Text to Speech}}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{27}{subsection.4.2.1}
-\contentsline {subsubsection}{Uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{28}{section*.9}
-\contentsline {paragraph}{Uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{28}{section*.10}
-\contentsline {paragraph}{Outra se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{28}{section*.11}
-\contentsline {paragraph}{Mais uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{28}{section*.12}
-\contentsline {subsubsection}{Outra se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{29}{section*.13}
-\contentsline {subsubsection}{Mais uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{29}{section*.14}
-\contentsline {subsection}{\numberline {4.2.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{29}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{29}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{30}{section.4.4}
+\contentsline {chapter}{\chapternumberline {4}Padroniza\IeC {\c c}\IeC {\~a}o WEB}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Coes\IeC {\~a}o textual e visual}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Padr\IeC {\~o}es HTML5}{15}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Mais uma outra se\IeC {\c c}\IeC {\~a}o prim\IeC {\'a}ria}{32}{chapter.5}
-\contentsline {section}{\numberline {5.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{32}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{32}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{33}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{33}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{33}{section.5.2}
-\contentsline {section}{\numberline {5.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{34}{section.5.3}
+\contentsline {chapter}{\chapternumberline {5}Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Uso do \textit {Text to Speech}}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{16}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{16}{subsection.5.2.1}
+\contentsline {subsubsection}{Uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{16}{section*.9}
+\contentsline {paragraph}{Uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{16}{section*.10}
+\contentsline {paragraph}{Outra se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{16}{section*.11}
+\contentsline {paragraph}{Mais uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{16}{section*.12}
+\contentsline {subsubsection}{Outra se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{16}{section*.13}
+\contentsline {subsubsection}{Mais uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{16}{section*.14}
+\contentsline {subsection}{\numberline {5.2.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{16}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{16}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{16}{section.5.3}
+\contentsline {section}{\numberline {5.4}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{16}{section.5.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Conclus\IeC {\~a}o}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{35}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{35}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{36}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{36}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{37}{section.6.3}
+\contentsline {chapter}{\chapternumberline {6}Mais uma outra se\IeC {\c c}\IeC {\~a}o prim\IeC {\'a}ria}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{17}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{17}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{17}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{17}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{17}{section.6.2}
+\contentsline {section}{\numberline {6.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{17}{section.6.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o}{18}{chapter.7}
+\contentsline {section}{\numberline {7.1}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{18}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{18}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{19}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{19}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{19}{section.7.2}
+\contentsline {section}{\numberline {7.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{20}{section.7.3}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{38}{section*.17}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{21}{section*.17}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Exemplo de ap\IeC {\^e}ndice}{39}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Exemplo de ap\IeC {\^e}ndice}{22}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Exemplo de ap\IeC {\^e}ndice}{41}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}Exemplo de ap\IeC {\^e}ndice}{24}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}Exemplo de ap\IeC {\^e}ndice}{43}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}Exemplo de ap\IeC {\^e}ndice}{26}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Resumo das normas}{45}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}Resumo das normas}{28}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Exemplo de anexo}{56}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}Exemplo de anexo}{39}{appendix.anexochapback.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}Exemplo de anexo}{58}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {C}Exemplo de anexo}{41}{appendix.anexochapback.3}

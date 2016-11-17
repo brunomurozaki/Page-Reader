@@ -3,9 +3,9 @@ The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
 Warning--entry type for "w3c_wai" isn't style-file defined
---line 1 of file referencias.bib
+--line 11 of file referencias.bib
 Warning--entry type for "w3c_wai_disabilites" isn't style-file defined
---line 9 of file referencias.bib
+--line 19 of file referencias.bib
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |

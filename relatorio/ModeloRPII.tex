@@ -377,7 +377,7 @@ Keywords: Keyword1. Keyword2. Keyword3. Etc.
 
 O estudo de acessibilidade de ferramentas WEB é muito amplo. Existem diversos estudos e padrões definidos dentro da literatura que definem o que é ou não acessível. A entidade reguladora de padrões WEB, a \textit{World Wide WEB Consortium} (W3C) especifica em seu guia diversos itens que facilitam o acesso do usuário, através a Iniciativa de Acessibilidade WEB \citeonline{w3c_wai}. 
 
-Mas há ainda na literatura uma falta de análise mais profunda quanto a questão de acessibilidade para com os usuários com algum tipo de deficiência ou inabilidade específica. A própria W3C, através da mesma Iniciativa de Acessibilidade WEB traz alguns pontos sobre como pessoas com inabilidades utilizam a WEB \citeonline{w3c_wai_disabilites}.
+Mas há ainda na literatura uma falta de análise mais profunda quanto a questão de acessibilidade para com os usuários com algum tipo de deficiência ou inabilidade específica. A própria W3C, através da mesma Iniciativa de Acessibilidade WEB (WCAG) traz alguns pontos sobre como pessoas com inabilidades utilizam a WEB \citeonline{w3c_wai_disabilites}.
 
 Com o passar dos anos, algumas ferramentas isoladas permitem com que haja a inclusão por parte dos usuários com algumas inabilidades específicas. As ferramentas de leituras de texto (\textit{Text To Speech}) por exemplo, dão ao usuário a chance de reproduzir o texto de uma forma que usuários com deficiência visual parcial ou total utilizem-se da WEB. Mas ainda há a necessidade de plataformas que possam resolver por inteiro o problema de acessibilidade do usuário, já que em muitos casos, não há apenas uma ferramenta que pode auxiliar a utilização do sistema. 
 
@@ -387,9 +387,15 @@ Segundo \citeonline{deaf_people}, mais de um fator pode influenciar na acessibil
 
 Nesta pesquisa, foram levantadas diversas hipóteses como o papel da imagem como facilitador de compreensão de texto, tempo gasto pelos usuários na completude de uma tarefa é maior em \textit{websites} com poucas imagens e usuários com deficiência auditiva releem mais texto do que os demais usuários. Os resultados demonstram em linhas gerais que as imagens por so só não alteram o desempenho do usuário com inabilidades auditivas, mas que necessidades específicas sim podem a vir alterar o desempenho.
 
+Dentre as análises feitas, em um website com textos muito extensos, usuários com deficiência auditiva tiveram um desempenho inferior ao de uma pessoa com audição normal, demorando mais de 300\% do tempo para completar uma tarefa. 
+
+Para confirmar a hipótese de que um dicionário de palavras em uma linguagem de sinais poderia trazer benefícios ao usuário, a pesquisa montou um grupo de pessoas afim de avaliar esta hipótese. De acordo com classificações qualitativas (medição da dificuldade para completar tarefas), e quantitativas, a pesquisa chegou a conclusão que o usuário sim, encontra mais facilmente informações dentro do \textit{website}, porém o tempo de execução da tarefa não modifica-se tanto, pelo trabalho a mais de se encontrar a palavra no dicionário de Sinais. Vale ressaltar, que a pesquisa levanta que este problema é meramente técnico, e refere-se a um aumento de tempo pela execução de uma tarefa a mais, incluindo-se o tempo de carregamento e fechamento da imagem. Como os tempos com e sem dicionário de sinais foi praticamente o mesmo, considerando-se a consulta como uma tarefa a mais, conclui-se que o tempo de execução da tarefa também diminui consideravelmente.
+
 % Falar sobre os itens abordados no bang do Social4All
 
-Ainda buscando uma universalidade de acesso, o Social4All \cite{bibid}
+O Social4All \cite{social_all} é uma aplicação que busca acessibilizar a WEB para diferentes tipos de pessoas. Seguindo o guia de desenvolvimento da WCAG, o Social4All indica os problemas de acessibilidade encontrados na página, assim como a importância de que este erro seja corrigido, e uma amostra do website de como a página fica seguindo o guia da WCAG. Além das adaptações automáticas, seguindo o Guia de Acessibilidade, o aplicativo também autoriza o usuário a inserir novos problemas encontrados na página, separando a experiência do usuário por perfis. Assim, quando o usuário utiliza-se do sistema, as alterações citadas se tornarão parte das alterações automáticas.
+
+Através de um \textit{gateway} WEB, a aplicação recupera qualquer website e adapta o código original, inserindo padrões definidos no Guia de acessibilidade. O aplicativo também possui um sistema de análise de performance do usuário, que mede o quão vantajosas foram as mudnaças para o usuário, e também mede o nível de acessibilidade já implementado pelo website.
 
 \chapter{Objetivos e Hipótese}
 
