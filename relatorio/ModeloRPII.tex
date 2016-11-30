@@ -448,7 +448,39 @@ Com estas divisões bem feitas, facilita-se o trabalho de mecanismos de buscas d
 
 \chapter{Acessibilidade para Usuários com Deficiência Visual}
 
-\section{Uso do \textit{Text to Speech}}
+Com os estudos realidados na área de acessibilidade para Deficientes Visuais, o grupo de pesquisa desenvolveu um protótipo simples para demonstrar alguns pontos os quais podem ser úteis para a melhoria da experiência na Internet por parte destes usuários. Algumas tecnologias já existentes no mercado (com conceitos até fora do meio digital) puderam ser aplicados para um exemplo pequeno desta aplicação. Descorreremos através desta unidade, os passos de desenvolvimento desta aplicação protótipo.
+
+\section{Uso do \textit{text-to-speech}}
+
+O conceito de reproduzir textos em áudio não restringe-se ao meio digital. Já há alguns anos, pessoas com deficiência visual tem acesso a ferramentas do dia-a-dia que reproduzem em forma de áudio seu conteúdo, como relógios, agendas eletrônicas, etc. Existem até aplicações \textit{desktop} que realizam este tipo de trabalho para dentro do ambiente do Sistema Operacional. Um exemplo disto é o \citeonline{virtual_vision} que funciona dentro do Sistema Operacional trazendo o áudio para o usuário das palavras escritas na tela. 
+
+Existem disponíveis na Internet, ferramentas WEB que reproduzem áudios sobre o conteúdo encontrado no navegador. Estas aplicações (assim como as que funcionam no \textit{desktop}) são chamadas de \textit{text-to-speech}, que como o próprio nome já diz, simplesmente geram áudios do texto definido.
+
+Porém, ainda é necessário analisar qual conteúdo deve ser reproduzido. As ferramentas disponíveis na WEB possuem apenas o formato de biblioteca (ou APIs). Portanto, cabe ao aplicativo que consome estas APIs que reproduzem textos em forma de áudio, qual conteúdo reproduzir.
+
+\subsection{Ferramentas utilizadas}
+
+Tentando desenvolver uma aplicação exatamente para suprir esta demanda, o grupo fez o uso de uma API escrita em \textit{JavaScript} que realiza chamadas simples à biblioteca de sons do Google disponível em seu módulo tradutor \cite{google_translate}.
+
+Esta API (\citeonline{responsive_voice}) se encarrega de fazer as requisições diretamente aos servidores do Google, deixando a iteração com a aplicação em si transparente e de fácil compreensão. O Algorítmo  \ref{alg:algoritmo-exemplo1} apresenta um trecho simples de código que inicia já a aplicação, reproduzindo o conteúdo HTML descrito em um simples elemento HTML. O protótipo final utiliza-se de uma chamada à API idêntica à esta, com diferenciações apenas no momento, e nos elementos em que a chamada é feita.
+
+\begin{algorithm}[htbp]
+	\caption{Exempo de chamada simples feita à API ResponsiveVoiceJS}
+	\label{alg:algoritmo-exemplo1}
+	\begin{algorithmic}[1]
+		\Function{ReproduzirTexto}{elemento}
+		\State responsiveVoice.speak(elemento.innerHTML);
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+Como já citado, a API se encarrega apenas de encapsular chamadas feitas à API do Google Tradutor, e retornar sua resposta. Portanto, a cada conversão \textit{text-to-speech} feita pela API, há uma chamada \citeonline{ajax} feita ao servidor Google. A resposta é automaticamente interpretada pelo navegador como reprodução do arquivo de som recebido, e imediatamente se inicia a reprodução do áudio. 
+
+Para fins técnicos, vale ressaltar que a requisição ao browser é feita por pedaços. Portanto, dependendo do tamanho do texto, mais de uma requisição será feita ao servidor do Google, bem como mais de uma resposta será recebida. O áudio não necessariamente é recebido por inteiro pelo navegador. 
+
+\subsection{Servidor NodeJS}
+
+O \citeonline{nodejs} é uma ferramenta que permite com que os desenvolvedores \textit{JavaScript} utilizem-se da aplicação a fim de criar uma interface do lado Servidor, toda ela escrita na mesma linguagem \textit{JavaScript}. Do lado do desenvolvedor WEB (sobretudo desenvolvedores mais focados em \textit{front-end}), ficou mais fácil se desenvolver aplicações do lado servidor (ou aplicações \textit{back-end}). Também, pela arquitetura assíncrona e diretamente ligada à funções antes tidas apenas do lado cliente, há também a facilidade maior em lidar com requisições HTTP e objetos de transmissão de dados tal qual o \citeonline{json}
 
 \section{Uma seção secundária}
 

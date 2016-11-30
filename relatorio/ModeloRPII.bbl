@@ -5,17 +5,16 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Consortium 2005]{w3c_wai_disabilites}
-\abntrefinfo{Consortium}{CONSORTIUM}{2005}
-{CONSORTIUM, W. W.~W. \emph{Web Accessibility Initiative}. 2005.
-Dispon{\'\i}vel em:
-  \url{https://www.w3.org/WAI/intro/people-use-web/Overview.html}.}
-
 \bibitem[Crespo, Espada e Burgos 2015]{social_all}
 \abntrefinfo{Crespo, Espada e Burgos}{CRESPO; ESPADA; BURGOS}{2015}
 {CRESPO, R.~G.; ESPADA, J.~P.; BURGOS, D. Social4all: Definitions od specific
   adaptations in web applications to improve accessibility.
 \emph{Computer Standards and Interfaces}, v.~48, p.~1--9, 2015.}
+
+\bibitem[Google 2006]{google_translate}
+\abntrefinfo{Google}{GOOGLE}{2006}
+{GOOGLE. 2006.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/translate/docs/}.}
 
 \bibitem[Jensen1 e Øvad1 2016]{deaf_people}
 \abntrefinfo{Jensen1 e Øvad1}{JENSEN1; ØVAD1}{2016}
@@ -24,8 +23,44 @@ Dispon{\'\i}vel em:
   browser.
 \emph{Cogn Tech Work}, v.~18, p. 717--731, 2016.}
 
+\bibitem[JQuery 2006]{ajax}
+\abntrefinfo{JQuery}{JQUERY}{2006}
+{JQUERY. 2006.
+Dispon{\'\i}vel em: \url{https://api.jquery.com/category/ajax/}.}
+
+\bibitem[JSON 1999]{json}
+\abntrefinfo{JSON}{JSON}{1999}
+{JSON. 1999.
+Dispon{\'\i}vel em: \url{http://www.json.org/}.}
+
+\bibitem[NodeJS 2009]{nodejs}
+\abntrefinfo{NodeJS}{NODEJS}{2009}
+{NODEJS. 2009.
+Dispon{\'\i}vel em: \url{https://nodejs.org/}.}
+
+\bibitem[ResponsiveVoiceJS 1994]{responsive_voice}
+\abntrefinfo{ResponsiveVoiceJS}{RESPONSIVEVOICEJS}{1994}
+{RESPONSIVEVOICEJS. 1994.
+Dispon{\'\i}vel em: \url{https://responsivevoice.org/}.}
+
+\bibitem[Vision 1997]{virtual_vision}
+\abntrefinfo{Vision}{VISION}{1997}
+{VISION, V. 1997.
+Dispon{\'\i}vel em: \url{http://www.virtualvision.com.br/}.}
+
+\bibitem[W3C 1994]{w3c}
+\abntrefinfo{W3C}{W3C}{1994}
+{W3C. 1994.
+Dispon{\'\i}vel em: \url{https://www.w3.org/}.}
+
+\bibitem[W3C 2005]{w3c_wai_disabilites}
+\abntrefinfo{W3C}{W3C}{2005a}
+{W3C. \emph{Web Accessibility Initiative}. 2005.
+Dispon{\'\i}vel em:
+  \url{https://www.w3.org/WAI/intro/people-use-web/Overview.html}.}
+
 \bibitem[W3C 2005]{w3c_wai}
-\abntrefinfo{W3C}{W3C}{2005}
+\abntrefinfo{W3C}{W3C}{2005b}
 {W3C, W. W. W.~C. \emph{Web Accessibility Initiative}. 2005.
 Dispon{\'\i}vel em: \url{https://www.w3.org/WAI/intro/accessibility.php}.}
 
