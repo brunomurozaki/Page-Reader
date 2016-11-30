@@ -4,33 +4,31 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{11}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{9}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}Objetivos e Hip\IeC {\'o}tese}{13}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Objetivos e Hip\IeC {\'o}tese}{11}{chapter.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Ferramentas de Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual e Auditiva}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Linguagens de Sinais}{14}{section.3.1}
-\contentsline {section}{\numberline {3.2}Simplifca\IeC {\c c}\IeC {\~a}o de Texto utilizando Processamento de Linguagem Natural}{14}{section.3.2}
+\contentsline {chapter}{\chapternumberline {3}Ferramentas de Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual e Auditiva}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Linguagens de Sinais}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simplifca\IeC {\c c}\IeC {\~a}o de Texto utilizando Processamento de Linguagem Natural}{12}{section.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}Padroniza\IeC {\c c}\IeC {\~a}o WEB}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Coes\IeC {\~a}o textual e visual}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Padr\IeC {\~o}es HTML5}{15}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}Padroniza\IeC {\c c}\IeC {\~a}o WEB}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Coes\IeC {\~a}o textual e visual}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Padr\IeC {\~o}es HTML5}{13}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Uso do \textit {text-to-speech}}{17}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Ferramentas utilizadas}{17}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Servidor NodeJS}{18}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{19}{section.5.2}
+\contentsline {chapter}{\chapternumberline {5}Acessibilidade para Usu\IeC {\'a}rios com Defici\IeC {\^e}ncia Visual}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Uso do \textit {text-to-speech}}{16}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Ferramentas utilizadas}{16}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Servidor NodeJS}{17}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Arquitetura do prot\IeC {\'o}tipo}{18}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{19}{subsection.5.2.1}
-\contentsline {subsubsection}{Uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.9}
-\contentsline {paragraph}{Uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.10}
-\contentsline {paragraph}{Outra se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.11}
-\contentsline {paragraph}{Mais uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.12}
-\contentsline {subsubsection}{Outra se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.13}
-\contentsline {subsubsection}{Mais uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.14}
+\contentsline {subsubsection}{Uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.5}
+\contentsline {paragraph}{Uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.6}
+\contentsline {paragraph}{Outra se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.7}
+\contentsline {paragraph}{Mais uma se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{19}{section*.8}
+\contentsline {subsubsection}{Outra se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.9}
+\contentsline {subsubsection}{Mais uma se\IeC {\c c}\IeC {\~a}o quarten\IeC {\'a}ria}{19}{section*.10}
 \contentsline {subsection}{\numberline {5.2.2}Outra se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{19}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Mais uma se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{19}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Outra se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{19}{section.5.3}
@@ -53,7 +51,7 @@
 \contentsline {section}{\numberline {7.3}Mais uma se\IeC {\c c}\IeC {\~a}o secund\IeC {\'a}ria}{23}{section.7.3}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{24}{section*.17}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{24}{section*.13}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}

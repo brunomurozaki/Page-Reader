@@ -43,6 +43,11 @@ Dispon{\'\i}vel em: \url{https://nodejs.org/}.}
 {RESPONSIVEVOICEJS. 1994.
 Dispon{\'\i}vel em: \url{https://responsivevoice.org/}.}
 
+\bibitem[REST]{rest}
+\abntrefinfo{REST}{REST}{}
+{REST.
+Dispon{\'\i}vel em: \url{http://www.restapitutorial.com/}.}
+
 \bibitem[Vision 1997]{virtual_vision}
 \abntrefinfo{Vision}{VISION}{1997}
 {VISION, V. 1997.
@@ -53,14 +58,19 @@ Dispon{\'\i}vel em: \url{http://www.virtualvision.com.br/}.}
 {W3C. 1994.
 Dispon{\'\i}vel em: \url{https://www.w3.org/}.}
 
-\bibitem[W3C 2005]{w3c_wai_disabilites}
+\bibitem[W3C 2005]{tableless}
 \abntrefinfo{W3C}{W3C}{2005a}
+{W3C. 2005.
+Dispon{\'\i}vel em: \url{https://www.w3.org/2002/03/csslayout-howto.html.en}.}
+
+\bibitem[W3C 2005]{w3c_wai_disabilites}
+\abntrefinfo{W3C}{W3C}{2005b}
 {W3C. \emph{Web Accessibility Initiative}. 2005.
 Dispon{\'\i}vel em:
   \url{https://www.w3.org/WAI/intro/people-use-web/Overview.html}.}
 
 \bibitem[W3C 2005]{w3c_wai}
-\abntrefinfo{W3C}{W3C}{2005b}
+\abntrefinfo{W3C}{W3C}{2005c}
 {W3C, W. W. W.~C. \emph{Web Accessibility Initiative}. 2005.
 Dispon{\'\i}vel em: \url{https://www.w3.org/WAI/intro/accessibility.php}.}
 

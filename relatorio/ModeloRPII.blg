@@ -2,27 +2,37 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: ModeloRPII.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Warning--entry type for "ajax" isn't style-file defined
+Warning--entry type for "tableless" isn't style-file defined
 --line 1 of file referencias.bib
-Warning--entry type for "json" isn't style-file defined
+Warning--entry type for "rest" isn't style-file defined
 --line 7 of file referencias.bib
+I was expecting a `,' or a `}'---line 10 of file referencias.bib
+ : 
+ : year = {2000}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "ajax" isn't style-file defined
+--line 13 of file referencias.bib
+Warning--entry type for "json" isn't style-file defined
+--line 19 of file referencias.bib
 Warning--entry type for "nodejs" isn't style-file defined
---line 14 of file referencias.bib
+--line 26 of file referencias.bib
 Warning--entry type for "w3c" isn't style-file defined
---line 20 of file referencias.bib
+--line 32 of file referencias.bib
 Warning--entry type for "responsive_voice" isn't style-file defined
---line 27 of file referencias.bib
+--line 39 of file referencias.bib
 Warning--entry type for "google_translate" isn't style-file defined
---line 36 of file referencias.bib
+--line 48 of file referencias.bib
 Warning--entry type for "virtual_vision" isn't style-file defined
---line 43 of file referencias.bib
+--line 55 of file referencias.bib
 Warning--entry type for "w3c_wai" isn't style-file defined
---line 59 of file referencias.bib
+--line 71 of file referencias.bib
 Warning--entry type for "w3c_wai_disabilites" isn't style-file defined
---line 67 of file referencias.bib
+--line 79 of file referencias.bib
+Warning--campo year vazio ou faltando em rest
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There were 9 warnings)
+(There was 1 error message)

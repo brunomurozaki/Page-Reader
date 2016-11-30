@@ -510,7 +510,14 @@ Para fins técnicos, vale ressaltar que a requisição ao browser é feita por p
 
 O \citeonline{nodejs} é uma ferramenta que permite com que os desenvolvedores \textit{JavaScript} utilizem-se da aplicação a fim de criar uma interface do lado Servidor, toda ela escrita na mesma linguagem \textit{JavaScript}. Do lado do desenvolvedor WEB (sobretudo desenvolvedores mais focados em \textit{front-end}), ficou mais fácil se desenvolver aplicações do lado servidor (ou aplicações \textit{back-end}). Também, pela arquitetura assíncrona e diretamente ligada à funções antes tidas apenas do lado cliente, há também a facilidade maior em lidar com requisições HTTP e objetos de transmissão de dados tal qual o \citeonline{json}
 
-\section{Uma seção secundária}
+O papel principal deste servidor é fornecer a interface inicial ao navegador, e buscar o conteúdo da página WEB desejada. Explicaremos na seção \ref{sec:arquitetura_prototipo} qual é exatamente o papel do servidor, e como analisamos o conteúdo da página web desejada. 
+
+Optamos por utilizar esta ferramenta pela facilidade do grupo em utiliza-la. Porém, não há nela qualquer fator exclusivo que permita a execução do projeto apenas com o uso desta. Alguns fatores como a facilidade de se trabalhar com o objeto JSON deixam o desenvolvimento mais natural. Mas caso a equipe de desenvolvimento opte por utilizar outro tipo de servidor WEB, não há nenhum impedimento. 
+
+\section{Arquitetura do protótipo} \label{sec:arquitetura_prototipo}
+
+Detalharemos aqui a arquitetura geral do protótipo. Vale salientar que esta arquitetura não é de fato a melhor para a resolução do problema. Conceitos de comunicação entre cliente/servidor WEB devem ser levados em conta e melhor tradados durante a aplicação. A aplicação não se encontra \textit{RESTfull} \cite{rest}, que seria a melhor abordagem para o desenvolvimento. Porém, como o objetivo do protótipo era apenas provar conceitos relativos à padronização WEB e a reprodução por meio de áudio de conteúdos escritos, acreditamos que a arquitetura para se utilizar estas ferramentas não fosse importante, como desenvolvimento de prova de conceito. Mas fica claro que em um futuro desenvolvimento de um produto mais robusto, uma arquitetura WEB melhor deve ser adotada.
+
 
 
 \subsection{Uma seção terciária}
