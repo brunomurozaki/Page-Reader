@@ -1,4 +1,4 @@
-# rp2
+# Prototipo Leitor (RP2)
 
 Para iniciar o projeto:
 
