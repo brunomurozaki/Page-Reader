@@ -2,6 +2,6 @@
 
 .wrapper{border:#000000 1px solid}
 
-.browser{height:40px; border:red 1px solid}
+.browser{height:40px; border:black 1px solid; text-align: center}
 
-.content{border:green 1px solid}
+.content{border:black 1px solid}
