@@ -399,13 +399,13 @@ Ainda dentro do objetivo, temos a proposta de hipótese de que não existe algum
 
 O termo acessibilidade não se refere apenas ao meio digital. Diversas ferramentas auxiliam as pessoas em suas tarefas diárias, facilitanto suas tarefas apesar de suas inabilidades. O uso destas ferramentas pode ser transplantado para o meio digital. É claro e evidente que nem todas as ferramentas podem ser utilizadas. Porém, em alguns casos, a computação pode e deve agir com estas ferramentas auxiliares, já que não há um meio comum a tecnologia que possa agir no sentido de acessibilidade por parte do usuário. 
 
-\section{Linguagens de Sinais}
+\section{Linguagens de Sinais} \label{libras}
 
 Antes de definir propriamente a Linguagem de Sinais, é interessante uma breve definição sobre uma Linguagem em sí. \citeonline{sassure} define Linguagem como uma capacidade humana de desenvolver e compreender a língua. Portanto, cada individuo como pessoa pode ter sua própria linguagem, sua própria interpretação da língua. Em termos gerais, a compreensão da língua é dada pelo meio social em que o individuo está inserido. Logo, como explica \citeonline{deafPeople}, uma linguagem de sinais sofre variações dependendo do país, região ou até época. Neste contexto, a linguagem de sinais não se diferencia das demais linguagens faladas.
 
 No Brasil, utiliza-se a LIBRA (Linguagem Brasileira de Sinais). Existem alguns dicionários sobre a linguagem disponíveis pela Internet, exemplo do \citeonline{dicionarioLibras}, que traz imagens sobre algumas expressões, letras e palavras na linguagem, e também o \citeonline{librasVideos} que traz pequenos videos que demonstram a ação a ser feita para a interpretação da expressão na linguagem de sinais. Também existem dicionários escritos, como o compilado por \citeonline{dictLibra} e seu antecessor, também feito por \citeonline{firstCapovilla}.
 
-\section{Simplifcação de Texto utilizando Processamento de Linguagem Natural}
+\section{Simplifcação de Texto utilizando Processamento de Linguagem Natural} \label{nlp}
 
 
 \chapter{Padronização WEB}
@@ -483,7 +483,7 @@ Outro exemplo refere-se a páginas que possuem várias seções de conteudo dife
 
 Com estas divisões bem feitas, facilita-se o trabalho de mecanismos de buscas de conteúdo dentro da página WEB. Os padrões e as indicações feitas pela \citeonline{w3c} vão muito além destas aqui citadas. Porém, pouco acrescentam nas questões específicas de detecção de conteúdo para eventuais mudanças para usuários com inabilidades.
 
-\chapter{Acessibilidade para Usuários com Deficiência Visual}
+\chapter{Acessibilidade para Usuários com Deficiência Visual} \label{appCegos}
 
 Com os estudos realidados na área de acessibilidade para Deficientes Visuais, o grupo de pesquisa desenvolveu um protótipo simples para demonstrar alguns pontos os quais podem ser úteis para a melhoria da experiência na Internet por parte destes usuários. Algumas tecnologias já existentes no mercado (com conceitos até fora do meio digital) puderam ser aplicados para um exemplo pequeno desta aplicação. Descorreremos através desta unidade, os passos de desenvolvimento desta aplicação protótipo.
 
@@ -644,6 +644,42 @@ Também fica claro que este modelo não permite nenhuma nevegação por parte do
 
 Os controles de inicio e término da ação de leitura são indicios de que o usuário também pode usar o teclado para navegação. Daí a importância da padronização da marcação \textit{nav}, já que seria nela que os elementos de menu estariam dispostos. Assim, seria possivel que uma aplicação recupere os elementos ali presentes juntamente com as anchoras necessárias, e portanto ao comando do teclado, o usuário poderia escolher para onde quer ser redirecionado. 
 
+\chapter{Acessibilidade para Usuários com Deficiência Auditiva}
+
+O protótipo apresentado para o projeto de página WEB acessível para usuários com deficiência auditiva é apenas uma aplição estática que demonstra pontos que podem ser abordados dinâmicamente por uma aplicação completa e robusta. Utilizando os conceitos apresentados por \citeonline{deafPeople} e pela \citeonline{w3cWai}, apresentamos formas de ajuda aos usuários que podem eventualmente se aproveitar em uma página WEB que aplique estes conceitos, ou até de aplicações que apliquem estes conceitos, utilizando apenas o conteúdo da página WEB, como realizado no protótipo apresentado no capitulo \ref{appCegos}.
+
+\section{Troca de palavras por sinônimos}
+
+\citeonline{deafPeople} citam a dificuldade que pessoas com inabilidades auditivas tem de compreensão de texto. Cita que a leitura está diretamente conectada a escuta, e que os significados muitas vezes se entrelaçam com a entonação ou com a fonética. Portanto, usuários com problemas auditivos podem ter mais problemas na interpretação de texto devido a problemas com o significado de algumas palavras.
+
+Pensando nisto, um dicionário de sinônimos pode ser útil para o usuário. Porém, um dicionário de busca pode ser inconveniente ao uso da aplicação. Como o usuário já volta suas atenções à página, uma mostragem de sinônimos que siga o fluxo de leitura do usuário é mais conveniente à usabilidade. 
+
+A Figura \ref{fig:prototipoSinonimo} demonstra o  protótipo de sinônimo trazido ao usuário ao momento de consulta. Utilizou-se uma anchora e um evento para que no momento em que o usuário pare o \textit{mouse} sobre o objeto, uma aba apareça, com o sinônimo da palavra desejada. Segundo \citeonline{deafPeople}, esta ajuda facilita a execução de tarefas em uma página WEB por parte dos usuários com deficiência auditiva, já que pode fornecer palavras conhecidas ao usuário, facilitando sua compreensão. Vale também a observação que esta alternativa, se automátizada, pode trazer também vantagens para usuários que não possuem a primeira língua igual à lingua da página WEB, ou até usuários com deficiências no aprendizado.
+
+\begin{figure}[htbp]
+	\centering
+	\caption{Demonstração da aplicação com sinônimos}
+	\includegraphics{prototipoCego.png}
+	\label{fig:prototipoSinonimo}
+
+\end{figure}
+
+De forma semelhante, podemos inserir também à ajuda de sinônimos, o mesmo conteúdo escrito, mas em linguagem de sinais. Com todas as ressalvas sobre a dificuldade de padronização da linguagem (como definido na seção \ref{libras}), uma apresentação da palavra nesta linguagem reduz substancialmente o tempo de execução de tarefa, e melhora a análise sobre a página pelo usuário \cite{deafPeople}. A Figura \ref{fig:prototipoLibra} demonstra como ficaria a adição da figura à ajuda de sinônimos no layout da página.
+
+\begin{figure}[htbp]
+	\centering
+	\caption{Demonstração da aplicação com sinônimos e a palavra equivalente em Libras}
+	\includegraphics{prototipoLibra.png}
+	\label{fig:prototipoLibra}
+\end{figure}
+
+\section{Redução e Resumo do texto}
+
+\citeonline{deafPeople} também citam que o usuário pode se perder em textos muito extensos. Este fator na verdade aplica-se para todo e qualquer tipo de usuário, como exemplificado pelos padrões de acessibilidade da \citeonline{w3c}. Porém, este problema pode ser agravado quando o usuário possui alguma inabilidade, seja ela qual for, já que o estresse de se utilizar uma aplicação que não lhe é confortável prejudica ainda mais seu desempenho no sistema. 
+
+Por meio de uma análise semântica, é possível se analisar trechos do texto que podem ser descartados, reduzindo seu tamanho. Mas não é apenas este problema que uma análise profunda do texto pode fazer. Quando se trata de linguagem escrita independente da linguagem falada, há uma dificuldade de compreensão quando se trata de algumas classes de palavras ou sentenças, como conjunções, advérbios, etc. A análise textual pode modificar o texto de forma com que estas palavras possam ser melhor recebidas pelo usuário, inseridos em algum contexto específico.
+
+Nosso protótipo demonstra como a aplicação pode se comportar com um algorimtmo de Processamento de Linguagem natural (como descrito na seção \ref{nlp}). Uma ação do usuário (neste caso, um clique no botão) faz com que o conteúdo da página seja analisado e transformado de acordo com o padrão estabelecido.
 
 \chapter{Conclusão}
 

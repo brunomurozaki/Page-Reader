@@ -1,0 +1,80 @@
+<html>
+
+	<head>
+		<title>Deaf Accessibility Prototype</title>
+	</head>
+	
+	<style>
+		.wrapper{margin: 0 auto; width:996px}
+		.menuItem{float:left; border: #000000 1px solid; padding:10px}
+		section{clear:both}
+		header{width:100%; text-align:center; padding: 50px 0px; border-bottom: #000000 1px solid}
+		.content{padding-top:20px}
+		#tip{display:none; position:absolute; border: #000000 1px solid; background-color:white; padding: 5px}
+		
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+	<script>
+		$(function(){
+			initialize();
+		});
+		
+		
+		function initialize(){
+			$("a").on("mouseover", onLinkMouseOver);
+			$("a").on("mouseout", onLinkMouseOut);
+		}
+		
+		function onLinkMouseOut(e){
+			$("#tip").css("display", "none");
+		}
+		
+		function onLinkMouseOver(e){
+			var locx = e.pageX;
+			var locy = e.pageY;
+			
+			$("#tip").css({"left": locx + "px", "top": locy + "px", "display": "block"});
+		}
+		
+		
+	</script>
+	
+	
+	
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Titulo Teste</h1>
+			</header>
+			
+			
+			<section class="content">
+				<article>
+					<p>Lorem <a href="#">ipsum</a> dolor sit amet, consectetur adipiscing elit. Donec iaculis, ante eget vehicula interdum, sapien nulla consequat lectus, et rhoncus massa libero facilisis libero. Integer cursus placerat condimentum. Cras vitae varius turpis. Nam blandit dui id gravida cursus. Nam euismod auctor augue. Vestibulum in tristique mi, eget lobortis augue. In lacinia nec ex euismod laoreet. Cras vitae erat leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tortor ac lacus bibendum imperdiet eu nec velit. In auctor tellus <a href="#">mauris</a>, eget luctus ligula ullamcorper sed. Vestibulum lacinia augue lacus, eget dignissim dui scelerisque et.</p>
+
+					<p>Etiam quis odio elementum, scelerisque orci sit amet, finibus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis justo nisi, tincidunt sed libero vitae, auctor scelerisque libero. Etiam ut velit tempus, molestie nisi quis, imperdiet justo. Duis interdum mattis lectus, sit amet mattis leo maximus sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut pellentesque, justo non ornare egestas, ante dolor pharetra lectus, posuere luctus velit odio <a href="#">ac</a> tortor. Pellentesque pharetra pellentesque ex, <a href="#">sit</a> amet imperdiet purus sollicitudin quis. Sed massa metus, feugiat sit amet dolor vel, imperdiet dictum nunc. Curabitur laoreet ornare ex et efficitur. Curabitur id lacus quis augue efficitur imperdiet.</p>
+
+					<p>Cum sociis natoque penatibus et <a href="#">magnis</a> dis parturient montes, nascetur ridiculus mus. Sed porttitor, tellus eu fringilla luctus, quam mi commodo est, vel pulvinar eros eros eget leo. Suspendisse varius erat ac nunc congue, ac faucibus metus mattis. Suspendisse neque orci, facilisis vel convallis nec, placerat sit amet nunc. Donec eget justo facilisis, <a href="#">convallis</a> neque nec, lacinia felis. Sed porta consequat risus ut elementum. Pellentesque malesuada dui ut condimentum scelerisque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+					<p>In nibh dui, mattis at ex <a href="#">vitae</a>, tempor rutrum turpis. Fusce eu augue posuere, facilisis lorem eget, molestie erat. Aenean volutpat, justo vitae commodo convallis, neque sapien eleifend nulla, ut egestas massa nibh nec ante. Donec lobortis erat quis lorem rutrum, vitae rutrum dui commodo. Suspendisse potenti. Nunc at mauris tincidunt tortor suscipit faucibus. Mauris bibendum nunc purus, sed <a href="#">ultrices</a> ante posuere quis. Nulla id ipsum ut urna pharetra <a href="#">malesuada</a>. Fusce odio elit, molestie non justo in, tristique volutpat leo. Ut rhoncus, nisi eget laoreet posuere, nulla velit aliquet eros, sed semper nibh ante eget felis. Vivamus vitae odio eu nibh posuere vestibulum. Etiam a maximus dolor. Nam bibendum risus viverra ultricies rhoncus. Nam suscipit enim nibh, id aliquet sem blandit quis.</p>
+
+					<p>Pellentesque lacinia turpis arcu, id tristique sem ornare facilisis. Morbi porttitor sed neque tincidunt efficitur. Morbi hendrerit id dolor at mattis. Morbi ultricies sapien varius nulla aliquet, vitae pretium risus faucibus. Nulla mattis finibus arcu eu blandit. Integer eleifend laoreet mauris, at finibus tortor convallis sed. Nullam egestas ex ac lectus accumsan pulvinar. Sed in metus erat. Nullam sit amet nisi et quam sollicitudin hendrerit in a diam. Nulla mattis magna gravida turpis dictum, vitae placerat magna malesuada. Suspendisse vel consectetur sem. Vestibulum sit amet libero nulla. Morbi tincidunt dolor eu tortor aliquam lobortis. Vestibulum tristique diam at neque pharetra lobortis. Sed suscipit dapibus sem, non hendrerit arcu interdum eu.</p>
+				</article>
+			</section>
+			
+			<div id="tip">
+				<h3>Palavra escolhida</h3>
+				<p>Significado da palavra selecionada para ajudar na compreensão</p>
+				<span>Sinonimos</span>
+				<h3>Em LIBRA:</h3>
+				
+				<img src="ajudar_te.jpg" height=120></img>
+				
+			</div>
+		</div>
+		
+	</body>
+
+</html>
