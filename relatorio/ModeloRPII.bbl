@@ -24,9 +24,14 @@ Dispon{\'\i}vel em: \url{https://cloud.google.com/translate/docs/}.}
 \emph{Cogn Tech Work}, v.~18, p. 717--731, 2016.}
 
 \bibitem[JQuery 2006]{ajax}
-\abntrefinfo{JQuery}{JQUERY}{2006}
+\abntrefinfo{JQuery}{JQUERY}{2006a}
 {JQUERY. 2006.
 Dispon{\'\i}vel em: \url{https://api.jquery.com/category/ajax/}.}
+
+\bibitem[JQuery 2006]{JQuery}
+\abntrefinfo{JQuery}{JQUERY}{2006b}
+{JQUERY. 2006.
+Dispon{\'\i}vel em: \url{https://jquery.com/}.}
 
 \bibitem[JSON 1999]{json}
 \abntrefinfo{JSON}{JSON}{1999}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  30 NOV 2016 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  2 DEC 2016 00:51
 entering extended mode
 **./ModeloRPII.tex
 (ModeloRPII.tex
@@ -1129,52 +1129,96 @@ l.245
 ] (ModeloRPII.loa) [5
 
 
-] (ModeloRPII.lot)
+] (ModeloRPII.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 39.
+)
 [6
 
-] (ModeloRPII.toc [7
-
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 54.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 54.
-) [8] [9
+] [7] [8
 
 
-] [10] [11
+] [9] [10
+
+] [11
 
 ] [12
 
-] [13
-
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 438.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 441.
+put line 430.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 433.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 441.
- [14] [15] [16
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 433.
+ [13] [14] [15
 
 ]
-[17]
+[16]
 
-Package hyperref Warning: Suppressing empty link on input line 519.
+Package hyperref Warning: Suppressing empty link on input line 511.
 
-[18] [19] [20
+<arquitetura_sistema.png, id=205, 923.70094pt x 252.19218pt>
+File: arquitetura_sistema.png Graphic file (type png)
 
-] [21
+<use arquitetura_sistema.png>
+Package pdftex.def Info: arquitetura_sistema.png used on input line 520.
+(pdftex.def)             Requested size: 461.84935pt x 126.09578pt.
 
-] [22] (ModeloRPII.bbl (ModeloRPII.brf)
+Overfull \hbox (6.84935pt too wide) in paragraph at lines 520--522
+ [][] 
+ []
+
+[17] [18pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.558 O
+        algoritmo \ref{alg:algoritmo-exemplo3} mostra simplificadamente como...
+ <./arquitetura_sistema.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 586.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 586.
+ [19]
+<figura-interface.png, id=226, 1009.52156pt x 356.83313pt>
+File: figura-interface.png Graphic file (type png)
+
+<use figura-interface.png>
+Package pdftex.def Info: figura-interface.png used on input line 611.
+(pdftex.def)             Requested size: 504.75955pt x 178.41612pt.
+
+Overfull \hbox (49.75955pt too wide) in paragraph at lines 611--613
+ [][] 
+ []
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.621 
+       <./figura-interface.png>] [21] [22
+
+] (ModeloRPII.bbl (ModeloRPII.brf)
 \tf@brf=\write5
 \openout5 = `ModeloRPII.brf'.
 
- [23]
+
+[23
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 3.
@@ -1190,63 +1234,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 ) [24
 
-] [25
-
-] [26] [27
-
-] [28] [29
-
-] [30]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 796.
-
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 796.
- [31
-
-] [32] [33]
-[34] [35] [36] [37] [38] [39] [40] [41] [42
-
-] [43] [44
-
-] [45]
+]
 \tf@lof=\write6
 \openout6 = `ModeloRPII.lof'.
 
 \tf@loa=\write7
 \openout7 = `ModeloRPII.loa'.
 
-\tf@lot=\write8
-\openout8 = `ModeloRPII.lot'.
+\tf@toc=\write8
+\openout8 = `ModeloRPII.toc'.
 
-\tf@toc=\write9
-\openout9 = `ModeloRPII.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1081.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1081.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
  (ModeloRPII.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1081.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1081.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
 Package rerunfilecheck Info: File `ModeloRPII.brf' has not changed.
-(rerunfilecheck)             Checksum: 58A73A979D2834DF01C87AC2FC1581CA;672.
+(rerunfilecheck)             Checksum: 6B9309F6DA7F8D338DE7AB93C1955625;766.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1081.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
  ) 
 Here is how much of TeX's memory you used:
- 14221 strings out of 493334
- 208677 string characters out of 3139252
- 474576 words of memory out of 3000000
- 17252 multiletter control sequences out of 15000+200000
- 11411 words of font info for 85 fonts, out of 3000000 for 9000
+ 14126 strings out of 493334
+ 208115 string characters out of 3139252
+ 475171 words of memory out of 3000000
+ 17268 multiletter control sequences out of 15000+200000
+ 11460 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,38p,1026b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,13n,38p,1026b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
@@ -1256,9 +1274,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on ModeloRPII.pdf (46 pages, 247286 bytes).
+Output written on ModeloRPII.pdf (25 pages, 328557 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 199 named destinations out of 1000 (max. 500000)
- 11169 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 11011 words of extra memory for PDF output out of 12000 (max. 10000000)
 
