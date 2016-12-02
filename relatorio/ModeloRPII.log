@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  2 DEC 2016 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  2 DEC 2016 01:22
 entering extended mode
 **./ModeloRPII.tex
 (ModeloRPII.tex
@@ -1131,92 +1131,101 @@ l.245
 
 ] (ModeloRPII.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
+(Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+(Font)              <5> on input line 31.
 )
 [6
 
-] [7] [8
+] [7
 
 
-] [9] [10
+] [8] [9
 
-] [11
+] [10
 
-] [12
+] <apple.jpg, id=144, 702.625pt x 401.5pt>
+File: apple.jpg Graphic file (type jpg)
+ <use apple.jpg>
+Package pdftex.def Info: apple.jpg used on input line 426.
+(pdftex.def)             Requested size: 351.31163pt x 200.7495pt.
 
-]
+[11
+
+] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.443 
+       <./apple.jpg>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 430.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 433.
+put line 445.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 448.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 433.
- [13] [14] [15
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 448.
 
-]
-[16]
+[13] [14] [15
 
-Package hyperref Warning: Suppressing empty link on input line 511.
-
-<arquitetura_sistema.png, id=205, 923.70094pt x 252.19218pt>
+] [16]
+<arquitetura_sistema.png, id=211, 923.70094pt x 252.19218pt>
 File: arquitetura_sistema.png Graphic file (type png)
 
 <use arquitetura_sistema.png>
-Package pdftex.def Info: arquitetura_sistema.png used on input line 520.
+Package pdftex.def Info: arquitetura_sistema.png used on input line 535.
 (pdftex.def)             Requested size: 461.84935pt x 126.09578pt.
 
-Overfull \hbox (6.84935pt too wide) in paragraph at lines 520--522
+Overfull \hbox (6.84935pt too wide) in paragraph at lines 535--537
  [][] 
  []
 
 [17] [18pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.5.1}) has been already used, duplicate ignored
+e.5.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.558 O
+l.573 O
         algoritmo \ref{alg:algoritmo-exemplo3} mostra simplificadamente como...
  <./arquitetura_sistema.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 586.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 601.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 586.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 601.
  [19]
-<figura-interface.png, id=226, 1009.52156pt x 356.83313pt>
+<figura-interface.png, id=232, 1009.52156pt x 356.83313pt>
 File: figura-interface.png Graphic file (type png)
 
 <use figura-interface.png>
-Package pdftex.def Info: figura-interface.png used on input line 611.
+Package pdftex.def Info: figura-interface.png used on input line 626.
 (pdftex.def)             Requested size: 504.75955pt x 178.41612pt.
 
-Overfull \hbox (49.75955pt too wide) in paragraph at lines 611--613
+Overfull \hbox (49.75955pt too wide) in paragraph at lines 626--628
  [][] 
  []
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.621 
-       <./figura-interface.png>] [21] [22
+l.636 
+       <./figura-interface.png>]
 
-] (ModeloRPII.bbl (ModeloRPII.brf)
+LaTeX Warning: Citation `social_all' on page 21 undefined on input line 639.
+
+[21] (ModeloRPII.bbl (ModeloRPII.brf)
 \tf@brf=\write5
 \openout5 = `ModeloRPII.brf'.
 
-
-[23
+ [22
 
 ]
 
@@ -1232,7 +1241,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nextToken' on input line 3.
 
 bibitemlist
-) [24
+) [23
 
 ]
 \tf@lof=\write6
@@ -1244,25 +1253,28 @@ bibitemlist
 \tf@toc=\write8
 \openout8 = `ModeloRPII.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 667.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 667.
  (ModeloRPII.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 667.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 667.
 Package rerunfilecheck Info: File `ModeloRPII.brf' has not changed.
-(rerunfilecheck)             Checksum: 6B9309F6DA7F8D338DE7AB93C1955625;766.
+(rerunfilecheck)             Checksum: 557C3673D08521D3786166E323CEA180;992.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 667.
  ) 
 Here is how much of TeX's memory you used:
- 14126 strings out of 493334
- 208115 string characters out of 3139252
- 475171 words of memory out of 3000000
- 17268 multiletter control sequences out of 15000+200000
- 11460 words of font info for 86 fonts, out of 3000000 for 9000
+ 14161 strings out of 493334
+ 208599 string characters out of 3139252
+ 477691 words of memory out of 3000000
+ 17303 multiletter control sequences out of 15000+200000
+ 11569 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,13n,38p,1026b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
@@ -1274,9 +1286,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on ModeloRPII.pdf (25 pages, 328557 bytes).
+Output written on ModeloRPII.pdf (24 pages, 437668 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 11011 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 10960 words of extra memory for PDF output out of 12000 (max. 10000000)
 

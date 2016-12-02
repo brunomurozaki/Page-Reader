@@ -5,18 +5,34 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Crespo, Espada e Burgos 2015]{social_all}
+\bibitem[Apple 1976]{apple}
+\abntrefinfo{Apple}{APPLE}{1976}
+{APPLE. 1976.
+Dispon{\'\i}vel em: \url{http://www.apple.com/}.}
+
+\bibitem[Crespo, Espada e Burgos 2015]{socialAll}
 \abntrefinfo{Crespo, Espada e Burgos}{CRESPO; ESPADA; BURGOS}{2015}
 {CRESPO, R.~G.; ESPADA, J.~P.; BURGOS, D. Social4all: Definitions od specific
   adaptations in web applications to improve accessibility.
 \emph{Computer Standards and Interfaces}, v.~48, p.~1--9, 2015.}
 
-\bibitem[Google 2006]{google_translate}
+\bibitem[Fernandes et al. 2012]{webAcessibility}
+\abntrefinfo{Fernandes et al.}{FERNANDES et al.}{2012}
+{FERNANDES, N. et al. Evaluating the accessibility of web applications.
+\emph{Procedia Computer Science}, v.~14, p. 28--35, 2012.}
+
+\bibitem[Google 2006]{googleTranslate}
 \abntrefinfo{Google}{GOOGLE}{2006}
 {GOOGLE. 2006.
 Dispon{\'\i}vel em: \url{https://cloud.google.com/translate/docs/}.}
 
-\bibitem[Jensen1 e Øvad1 2016]{deaf_people}
+\bibitem[HubSpot 2012]{appleImg}
+\abntrefinfo{HubSpot}{HUBSPOT}{2012}
+{HUBSPOT. 2012.
+Dispon{\'\i}vel em:
+  \url{https://blog.hubspot.com/marketing/look-back-20-years-website-design\#sm.0010y32951agddt7z2d219bewhuch}.}
+
+\bibitem[Jensen1 e Øvad1 2016]{deafPeople}
 \abntrefinfo{Jensen1 e Øvad1}{JENSEN1; ØVAD1}{2016}
 {JENSEN1, S.~S.; ØVAD1, T. Optimizing web-accessibility for deaf people and
   the hearing impaired utilizing a sign language dictionary embedded in a
@@ -43,17 +59,17 @@ Dispon{\'\i}vel em: \url{http://www.json.org/}.}
 {NODEJS. 2009.
 Dispon{\'\i}vel em: \url{https://nodejs.org/}.}
 
-\bibitem[ResponsiveVoiceJS 1994]{responsive_voice}
+\bibitem[ResponsiveVoiceJS 1994]{responsiveVoice}
 \abntrefinfo{ResponsiveVoiceJS}{RESPONSIVEVOICEJS}{1994}
 {RESPONSIVEVOICEJS. 1994.
 Dispon{\'\i}vel em: \url{https://responsivevoice.org/}.}
 
-\bibitem[REST]{rest}
-\abntrefinfo{REST}{REST}{}
-{REST.
+\bibitem[REST 2000]{rest}
+\abntrefinfo{REST}{REST}{2000}
+{REST. 2000.
 Dispon{\'\i}vel em: \url{http://www.restapitutorial.com/}.}
 
-\bibitem[Vision 1997]{virtual_vision}
+\bibitem[Vision 1997]{virtualVision}
 \abntrefinfo{Vision}{VISION}{1997}
 {VISION, V. 1997.
 Dispon{\'\i}vel em: \url{http://www.virtualvision.com.br/}.}
@@ -68,13 +84,13 @@ Dispon{\'\i}vel em: \url{https://www.w3.org/}.}
 {W3C. 2005.
 Dispon{\'\i}vel em: \url{https://www.w3.org/2002/03/csslayout-howto.html.en}.}
 
-\bibitem[W3C 2005]{w3c_wai_disabilites}
+\bibitem[W3C 2005]{w3cWaiDisabilites}
 \abntrefinfo{W3C}{W3C}{2005b}
 {W3C. \emph{Web Accessibility Initiative}. 2005.
 Dispon{\'\i}vel em:
   \url{https://www.w3.org/WAI/intro/people-use-web/Overview.html}.}
 
-\bibitem[W3C 2005]{w3c_wai}
+\bibitem[W3C 2005]{w3cWai}
 \abntrefinfo{W3C}{W3C}{2005c}
 {W3C, W. W. W.~C. \emph{Web Accessibility Initiative}. 2005.
 Dispon{\'\i}vel em: \url{https://www.w3.org/WAI/intro/accessibility.php}.}
